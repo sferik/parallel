@@ -34,6 +34,9 @@ GEM
     connection_pool (3.0.2)
     diff-lcs (1.6.2)
     drb (2.2.3)
+    duel (0.1.4)
+      fiddle (~> 1.1)
+    fiddle (1.1.8)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     json (2.19.3)
@@ -90,6 +93,7 @@ GEM
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     sqlite3 (2.9.2-arm64-darwin)
+    stackprof (0.2.28)
     timeout (0.6.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -100,6 +104,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-25
+  arm64-darwin-27
 
 DEPENDENCIES
   activerecord
@@ -107,6 +112,7 @@ DEPENDENCIES
   benchmark
   bigdecimal
   bump
+  duel (>= 0.1.4)
   logger
   mutex_m
   mysql2
@@ -118,6 +124,7 @@ DEPENDENCIES
   rubocop-rspec
   ruby-progressbar
   sqlite3
+  stackprof
 
 BUNDLED WITH
   4.0.7
