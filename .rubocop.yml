@@ -2,7 +2,13 @@ plugins:
 - rubocop-rake
 - rubocop-rspec
 
+inherit_mode:
+  merge:
+    - Include
+
 AllCops:
+  Include:
+    - .duel.rb
   NewCops: enable
   TargetRubyVersion: 3.3
 
