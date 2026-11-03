@@ -2,6 +2,7 @@ Parallel
 ==============
 [![Gem Version](https://badge.fury.io/rb/parallel.svg)](https://rubygems.org/gems/parallel)
 [![Build Status](https://github.com/grosser/parallel/actions/workflows/actions.yml/badge.svg)](https://github.com/grosser/parallel/actions/workflows/actions.yml)
+[![Duel](https://raw.githubusercontent.com/grosser/parallel/duel/badge/badge.svg)](https://github.com/sferik/duel-ruby)
 
 
 Run any code in parallel Processes(> use all CPUs), Threads(> speedup blocking operations), or Ractors(> use all CPUs).<br/>
